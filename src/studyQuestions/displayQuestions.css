@@ -1,0 +1,85 @@
+button {
+  margin-top: auto;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  border: solid black 1px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: lightblue;
+}
+
+.statsContainer {
+  margin-top: 25%;
+  width: 80%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+
+  font-size: 1.5rem;
+  border: solid gray 1px;
+  border-radius: 2rem;
+}
+
+.labelValueContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+}
+.label {
+    font-style: italic;
+}
+.value {
+    font-weight: bold;
+}
+.elementGap {
+}
+
+.chapterContainer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.chapterNumber {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.chapterTitle {
+  text-align: center;
+  font-style: italic;
+}
+
+.questionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 2rem;
+  gap: 1rem;
+}
+.question {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  border-bottom: solid black 1px;
+}
+.answer {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border: solid gray 1px;
+  border-radius: 1rem;
+  width: 100%;
+}
+.correct {
+  background-color: lightgreen;
+}
+.wrong {
+  background-color: lightcoral;
+}
