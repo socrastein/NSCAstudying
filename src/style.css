@@ -1,0 +1,83 @@
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Reset margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+table,
+caption,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./fonts/ubuntu/ubuntu-v20-latin-300.woff2), format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./fonts/ubuntu/ubuntu-v20-latin-700.woff2), format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Reset font styles */
+html {
+  font-family: Ubuntu; /* Default to sans-serif font stack */
+  font-size: 16px; /* Adjust as needed */
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+}
+
+/* Remove outline on focused elements */
+*:focus {
+  outline: none;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 100dvh;
+    width: 100dvw;
+}
