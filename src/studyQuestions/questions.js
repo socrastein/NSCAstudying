@@ -601,160 +601,214 @@ const chapter12 = {
 
 const chapter13 = {
   ChapterNumber: 13,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Resistance Training Exercise Techniques",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following lower-body exercises is a single-joint exercise?",
+      Answers: [
+        "back squat",
+        "front squat",
+        "leg (knee) extension",
+        "forward lunge",
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "All of the following exercises require one or more spotters EXCEPT",
+      Answers: [
+        "lying supine triceps extension.",
+        "biceps curl (barbell).",
+        "flat barbell bench press.",
+        "back squat.",
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following is the PRIMARY reason for using proper footwear while resistance training?",
+      Answers: [
+        "etiquette",
+        "technique improvement",
+        "safety",
+        "equipment maintenance",
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
-    },
-  ],
-  Questions: [
-    {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following handgrips is used in performing a power snatch exercise?",
+      Answers: [
+        "pronated with closed grip",
+        "supinated with closed grip",
+        "pronated with hook grip",
+        "supinated with hook grip",
+      ],
+      A: 0, //A
     },
   ],
 };
 
 const chapter14 = {
   ChapterNumber: 14,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Cardiovascular Training Methods",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following is correct regarding the amount of fluid that should be ingested for every pound of body weight lost during exercise?",
+      Answers: ["one cup", "one gallon", "10 to 14 ounces", "20 to 24 ounces"],
+      A: 3, //D
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following is the first action to perform when using a treadmill?",
+      Answers: [
+        "set the treadmill incline to 0°",
+        "hold on to the handrails while straddling the belt",
+        "walk/run toward the front part of the treadmill deck",
+        "turn on the machine to a speed of no more than 1 mile per hour (0.6 km/h)",
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following instructions should be given to a client for using a stair climber?",
+      Answers: [
+        `"Place your entire foot on the pedal to start, but allow the heels to lift off as each pedal rises."`,
+        `"Lean forward slightly, especially as the workout becomes harder."`,
+        `"Lock out the knees at the bottom of each step."`,
+        `"Hold the handrails for balance if necessary."`,
+      ],
+      A: 3, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
-    },
-  ],
-  Questions: [
-    {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following describes correct body position on a stationary bicycle?",
+      Answers: [
+        "With the ball of the foot on the upward pedal, the knee is above the height of the hips.",
+        "With the heel of the foot on the downward pedal, the leg is straight.",
+        "With the heel of the foot on the upward pedal, the knee is even with height of the hips.",
+        "With the ball of the foot on the downward pedal, the leg is straight.",
+      ],
+      A: 1, //B
     },
   ],
 };
 
 const chapter15 = {
   ChapterNumber: 15,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Resistance Training Program Design",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following exercise orders is recommended when using a push/pull exercise arrangement method?",
+      Answers: [
+        "bench press, shoulder press, lying triceps extension, biceps curl, and bent-over row",
+        "shoulder press, biceps curl, lying triceps extension, bench press, bent-over row",
+        "bent-over row, shoulder press, bench press, biceps curl, lying triceps extension",
+        "bench press, bent-over row, shoulder press, biceps curl, lying triceps extension",
+      ],
+      A: 3, //D
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: `Which of the following is the load for the bench press exercise on a "moderately light day" if the client is performing sets of five repetitions and his 1RM is 200 pounds (91 kg)?`,
+      Answers: [
+        "174 to 165 pounds (79 to 75 kg)",
+        "113 to 122 pounds (51 to 56 kg)",
+        "157 to 148 pounds (71 to 67 kg)",
+        "139 to 131 pounds (63 to 59 kg)",
+      ],
+      A: 3, //D
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following programs is ideal for an intermediate client targeting muscular strength with her training program?",
+      Answers: [
+        "3 sets of 10 repetitions",
+        "5 sets of 15 repetitions",
+        "5 sets of 5 repetitions",
+        "1 set of 4 repetitions",
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "An intermediately-trained client was able to perform 17 repetitions during a 15RM test of the bench press exercise. Which of the following relative load adjustments would allow the client to achieve the desired 15 repetitions?",
+      Answers: ["+5%", "+10%", "-10%", "-5%"],
+      A: 0, //A
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following rest interval ranges is used for muscular hypertrophy training?",
+      Answers: [
+        "10 to 20 seconds",
+        "30 to 90 seconds",
+        "2 to 3 minutes",
+        "4 to 6 minutes",
+      ],
+      A: 1, //B
     },
   ],
 };
 
 const chapter16 = {
   ChapterNumber: 16,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Aerobic Endurance Training Program Design",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A client is preparing for his first half-marathon and wants to complete the 13.1-mile (21 km) distance in 2 hours. Which of the following would be an appropriate long slow distance workout?",
+      Answers: [
+        "cycling 13.1 miles (21 km) at a pace of 7 miles per hour (11.3 kph)",
+        "stair climbing for 2 hours",
+        "running 15 miles (24 km) at a pace of 5 miles per hour (8.0 kph)",
+        "freestyle swimming for 1 hour",
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "The personal trainer is designing an aerobic exercise program for a 43-year-old client who has a resting heart rate of 75 beats/min. Using the Karvonen method, which of the following is the target heart rate range if the personal trainer assigns an intensity of 60% to 70% of the client's HRR?",
+      Answers: [
+        "106 to 123 beats/min",
+        "136 to 146 beats/min",
+        "123 to 137 beats/min",
+        "154 to 165 beats/min",
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following exercise modes would be most appropriate for a 52-year-old female client with no medical or physical contraindications whose goal is to ride in a 50-mile cycling event?",
+      Answers: [
+        "walking on a treadmill",
+        "riding a bicycle",
+        "using an elliptical machine",
+        "using a rowing machine",
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
-    },
-  ],
-  Questions: [
-    {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A sedentary 35-year-old client is morbidly obese and would like to lose weight. The personal trainer selected the semirecumbent bike as the exercise mode. Which of the following is an appropriate exercise program for the first exercise session?",
+      Answers: [
+        "three 5-minute bouts with rest in between at 50% to 65% HRR",
+        "20 minutes continuous at 75% HRR",
+        "25 minutes of intervals at 90% HRR and 70% HRR",
+        "30 minutes of LSD at 65% HRR",
+      ],
+      A: 0, //A
     },
   ],
 };
@@ -1131,5 +1185,5 @@ export const chapters = [
   chapter9,
   chapter10,
   chapter11,
-  chapter12
+  chapter12,
 ];
