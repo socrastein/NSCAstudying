@@ -1186,4 +1186,8 @@ export const chapters = [
   chapter10,
   chapter11,
   chapter12,
+  chapter13,
+  chapter14,
+  chapter15,
+  chapter16
 ];
