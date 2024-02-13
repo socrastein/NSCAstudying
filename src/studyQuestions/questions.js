@@ -241,43 +241,366 @@ const chapter6 = {
     "Physiological Responses and Adaptations to Aerobic Endurance Training",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A 35-year-old female began an exercise program four months ago in which she has been running on the treadmill four days per week. Which of the following describes the adaptations that are most likely to occur with this program?",
+      Answers: [
+        "an increase in maximal exercise HR and a decrease in capillary density",
+        "an increase in resting SBP and decrease in maximal a-vO₂ difference",
+        "an increase in mitochondrial density and a decrease in submaximal HR",
+        "an increase in blood volume and a decrease in insulin sensitivity",
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following changes in trained skeletal muscle is an adaptation to chronic aerobic exercise?",
+      Answers: [
+        "decreased mitochondria density",
+        "increased concentration of aerobic enzymes",
+        "increased cross-sectional area of type IIa fibers",
+        "decreased capillary density",
+      ],
+      A: 1, //B,
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following is most likely to occur as a result of aerobic endurance overtraining?",
+      Answers: [
+        "decreased V̇O₂ max",
+        "increased muscle glycogen stores",
+        "increased body fat percentage",
+        "decreased blood volume",
+      ],
+      A: 0, //A
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
-    },
-  ],
-  Questions: [
-    {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following measures decrease during an acute exercise bout?",
+      Answers: [
+        "rate-pressure product, stroke volume, mean arterial pressure, hematocrit",
+        "oxygen consumption, a-vO₂ difference, systolic blood pressure, RER",
+        "blood pH, blood flow to splanchnic region, plasma volume, insulin",
+        "catecholamines, glucagon, stroke volume, tidal volume",
+      ],
+      A: 2, //C
     },
   ],
 };
 
 const chapter7 = {
   ChapterNumber: 7,
+  ChapterTitle: "Nutrition in the Personal Training Setting",
+  Questions: [
+    {
+      Q: "Taking into consideration REE, which of the following is the approximate daily caloric need of a 25-year-old, 125-pound (57 kg) female client who is moderately active?",
+      Answers: [
+        "1,333 kilocalories",
+        "1,600 kilocalories",
+        "2,000 kilocalories",
+        "2,263 kilocalories",
+      ],
+      A: 3, //D
+    },
+  ],
+  Questions: [
+    {
+      Q: "An active male client lost 3 pounds (1.4 kg) during practice. How much fluid should he consume to replace sweat losses?",
+      Answers: [
+        "8 ounces per pound loss",
+        "60 ounces",
+        "16 ounces per pound loss",
+        "40 ounces",
+      ],
+      A: 1, //B
+    },
+  ],
+  Questions: [
+    {
+      Q: "Approximately how much carbohydrate should an elite male cross country runner who weighs 150 pounds (68 kg) consume per day?",
+      Answers: ["136 g", "340 g", "680 g", "1,360 g"],
+      A: 2, //C
+    },
+  ],
+  Questions: [
+    {
+      Q: "Which of the following is the recommended minimum protein intake for an active client?",
+      Answers: [
+        "1.0 g/kg body weight",
+        "0.83 g/kg body weight",
+        "1.2 g/kg body weight",
+        "2.0 g/kg body weight",
+      ],
+      A: 2, //C
+    },
+  ],
+};
+
+const chapter8 = {
+  ChapterNumber: 8,
+  ChapterTitle: "Exercise Psychology for the Personal Trainer",
+  Questions: [
+    {
+      Q: "All of the following describe how exercise provides cognitive benefits EXCEPT",
+      Answers: [
+        "enhanced oxygen supply to the brain",
+        "greater genetic variation",
+        "improved neurotransmitter function",
+        "heightened neural efficiency",
+      ],
+      A: 1, //B
+    },
+  ],
+  Questions: [
+    {
+      Q: "Which of the following is an example of an outcome goal?",
+      Answers: [
+        '"I want to do 60 sit-ups in 1 minute."',
+        '"I want to do my best not to eat before going to bed tonight."',
+        '"I want to be able to bench press more than my friend."',
+        '"I want to lose 10 pounds of body fat."',
+      ],
+      A: 2, //C
+    },
+  ],
+  Questions: [
+    {
+      Q: "Which of the following is an example of negative reinforcement used by a personal trainer with a client who just completed a month of consistently walking three times per week?",
+      Answers: [
+        `"Good job! Next month, you do not have to take the time to fill out your own walking workout card - I'll do it for you!"`,
+        `"Good job! You won Walker of the Month!"`,
+        `"Walking? I thought we talked about you riding the bike instead of walking!"`,
+        `"Three times per week? It was supposed to be four times per week, so next month you won't be able to keep working out during your lunch hour."`,
+      ],
+      A: 0, //A
+    },
+  ],
+  Questions: [
+    {
+      Q: "On which of the following points along the self-determination continuum is a client who is highly intrinsically motivated?",
+      Answers: ["introjected", "integrated", "identified", "amotivated"],
+      A: 1, //B
+    },
+  ],
+};
+
+const chapter9 = {
+  ChapterNumber: 9,
+  ChapterTitle: "Client Consultation and Health Appraisal",
+  Questions: [
+    {
+      Q: "Which of the following should a personal trainer do during the initial meeting with a new client?\nI. Perform a submaximal bike test to estimate the client's V̇O₂ max\nII. Have the client complete a medical history form.\nIII. Evaluate the client's level of exercise readiness.\nIV. Discuss the client's goals for his or her exercise program.",
+      Answers: [
+        "I and II only",
+        "III and IV only",
+        "I, II, and III only",
+        "II, III, and IV only",
+      ],
+      A: 1, //B
+    },
+  ],
+  Questions: [
+    {
+      Q: "Which of the following should be included in an informed consent?\nI. a summary of the client's testing results\nII. benefits associated with participation\nIII. the client's exercise goals\nIV. responsibilities of the client",
+      Answers: [
+        "I and III only",
+        "II and IV only",
+        "I, II, and III only",
+        "II, III, and IV only",
+      ],
+      A: 1, //B
+    },
+  ],
+  Questions: [
+    {
+      Q: "Which of the following factors discovered at a preparticipation health appraisal screening reveal a client's risk of coronary artery disease?\nI. HDL: 33 mg/dl\nII. family history: uncle died of stroke at age 42\nIII. blood pressure: 128/88 mmHg; measured twice\nIV. quit smoking 60 days ago",
+      Answers: [
+        "I and III only",
+        "II and IV only",
+        "I and IV only",
+        "II and III only",
+      ],
+      A: 2, //C
+    },
+  ],
+  Questions: [
+    {
+      Q: "Which of the following clients is in the highest risk stratification for coronary artery disease?",
+      Answers: [
+        "44-year-old male whose father died of a heart attack at 60 years of age",
+        "46-year-old male with a serum cholesterol reading of 205 mg/dl",
+        "48-year-old female with a BMI of 30",
+        "50-year-old who has COPD",
+      ],
+      A: 3, //D
+    },
+  ],
+  Questions: [
+    {
+      Q: "Which of the following conditions would indicate an increased risk for sudden cardiac death?\nI. disability from heart disease in a close relative >50 years of age\nII. prior recognition of a heart murmur\nIII. sedentary lifestyle\nIV. unexplained shortness of breath and fatigue associated with exercise",
+      Answers: [
+        "I and III only",
+        "II and IV only",
+        "I and IV only",
+        "II and III only",
+      ],
+      A: 1, //B
+    },
+  ],
+};
+
+const chapter10 = {
+  ChapterNumber: 10,
+  ChapterTitle: "Fitness Assessment Selection and Administration",
+  Questions: [
+    {
+      Q: "Which one of the following tests used to estimate V̇O₂ max would likely be inappropriate for a 43-year-old sedentary male client who has not yet been cleared by his family physician for participation in a supervised exercise program?",
+      Answers: [
+        "Ȧstrand-Ryhming cycle ergometer test",
+        "YMCA cycle ergometer test",
+        "Rockport walking test",
+        "1.5-mile (2.4 km) run",
+      ],
+      A: 3, //D
+    },
+  ],
+  Questions: [
+    {
+      Q: "A personal trainer performs hydrostatic weighing for a client. The client then proceeds to have the same hydrostatic weighing test performed under the same conditions a day later, but the body fat percentage is 10 points higher. In this case, the hydrostatic weighing performed by the personal trainer is",
+      Answers: [
+        "reliable.",
+        "valid.",
+        "valid and reliable.",
+        "neither valid nor reliable.",
+      ],
+      A: 3, //D
+    },
+  ],
+  Questions: [
+    {
+      Q: "A new client has completed a YMCA cycle ergometer test, but upon completion of the test her personal trainer notices the machine was not properly calibrated prior to testing. Which of the following was affected by a lack of calibration?",
+      Answers: [
+        "objectivity",
+        "intrarater reliability",
+        "the standard error of measurement",
+        "interrater objectivity",
+      ],
+      A: 2, //C
+    },
+  ],
+  Questions: [
+    {
+      Q: "Which of the following is a recommended sequence of tests that promotes the most accurate results when assessing general fitness?\nI. Rockport walking test\nII. sit-and-reach test\nIII. push-up test\nIV. skinfold measurements",
+      Answers: [
+        "I, II, II, IV",
+        "IV, III, II, I",
+        "I, III, II, IV",
+        "IV, II, III, I",
+      ],
+      A: 3, //D
+    },
+  ],
+};
+
+const chapter11 = {
+  ChapterNumber: 11,
+  ChapterTitle: "Fitness Testing Protocols and Norms",
+  Questions: [
+    {
+      Q: "A 40-year-old female client's resting blood pressure was 115/72 during the initial assessment. When measuring her blood pressure one month later, to what level of mercury (Hg) should the bladder be inflated?",
+      Answers: ["115 mm", "125 mm", "135 mm", "150 mm"],
+      A: 2, //C
+    },
+  ],
+  Questions: [
+    {
+      Q: "All of the following skinfold sites are appropriate for performing a three-site skinfold for a 45-year-old male client EXCEPT",
+      Answers: ["chest.", "suprailium.", "abdomen.", "thigh."],
+      A: 1, //B
+    },
+  ],
+  Questions: [
+    {
+      Q: "Calculate the estimated V̇O₂ max value for a 38-year-old male client who weighs 88 kg and ran 1.5 miles in 13:30.",
+      Answers: [
+        "34.5 ml • kg⁻¹ • min⁻¹",
+        "36.2 ml • kg⁻¹ • min⁻¹",
+        "39.9 ml • kg⁻¹ • min⁻¹",
+        "41.5 ml • kg⁻¹ • min⁻¹",
+      ],
+      A: 2, //C
+    },
+  ],
+  Questions: [
+    {
+      Q: "Which of the following is an assessment of local muscular endurance for a 38-year-old female client?",
+      Answers: [
+        "bench press 35 pounds at 60 beats/min until failure",
+        "12-minute run/walk",
+        "Ȧstrand-Ryhming cycle ergometer test",
+        "YMCA step test",
+      ],
+      A: 0, //A
+    },
+  ],
+};
+
+const chapter12 = {
+  ChapterNumber: 12,
+  ChapterTitle: "Flexibility, Body Weight, and Stability Ball Exercises",
+  Questions: [
+    {
+      Q: "All of the following are appropriate activities to use as a warm-up EXCEPT",
+      Answers: [
+        "stationary cycling.",
+        "jumping rope.",
+        "dynamic flexibility.",
+        "jogging.",
+      ],
+      A: 2, //C
+    },
+  ],
+  Questions: [
+    {
+      Q: "Which of the following pre-exercise activities has the HIGHEST transference to athletic performance?",
+      Answers: [
+        "PNF stretching",
+        "specific warm-up",
+        "static stretching",
+        "general warm-up",
+      ],
+      A: 1, //B
+    },
+  ],
+  Questions: [
+    {
+      Q: "Incorporating stability ball training into the strength and conditioning programs of athletes has resulted in which of the following findings?\nI. improved transference to athletic performance\nII. negligible transference to athletic performance\nIII. enhanced core stability\nIV. reduced core stability",
+      Answers: [
+        "I and III only",
+        "II and III only",
+        "II and IV only",
+        "I and IV only",
+      ],
+      A: 1, //B
+    },
+  ],
+  Questions: [
+    {
+      Q: "All of the following have been shown to be an advantage of stability ball training EXCEPT",
+      Answers: [
+        "reduced injury risk.",
+        "increased heart rate response.",
+        "enhanced maximal strength.",
+        "improved performance on unstable surfaces.",
+      ],
+      A: 2, //C
+    },
+  ],
+};
+
+const chapter13 = {
+  ChapterNumber: 13,
   ChapterTitle: "Cardiorespiratory System and Gas Exchange",
   Questions: [
     {
@@ -316,4 +639,497 @@ const chapter7 = {
   ],
 };
 
-export const chapters = [chapter1, chapter2, chapter3, chapter4, chapter5];
+const chapter14 = {
+  ChapterNumber: 14,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+const chapter15 = {
+  ChapterNumber: 15,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+const chapter16 = {
+  ChapterNumber: 16,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+const chapter17 = {
+  ChapterNumber: 17,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+const chapter18 = {
+  ChapterNumber: 18,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+const chapter19 = {
+  ChapterNumber: 19,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+const chapter20 = {
+  ChapterNumber: 20,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+const chapter21 = {
+  ChapterNumber: 21,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+const chapter22 = {
+  ChapterNumber: 22,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+const chapter23 = {
+  ChapterNumber: 23,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+const chapter24 = {
+  ChapterNumber: 24,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+const chapter25 = {
+  ChapterNumber: 25,
+  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+  Questions: [
+    {
+      Q: "",
+      Answers: ["", "", "", ""],
+      A: 0,
+    },
+  ],
+};
+
+export const chapters = [
+  chapter1,
+  chapter2,
+  chapter3,
+  chapter4,
+  chapter5,
+  chapter6,
+  chapter7,
+  chapter8,
+  chapter9,
+  chapter10,
+  chapter11,
+  chapter12
+];
