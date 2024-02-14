@@ -1,3 +1,14 @@
+// {
+//   Q: "",
+//   Answers: [
+//     "", 
+//     "", 
+//     "", 
+//     ""
+//   ],
+//   A: 0, //A
+// },
+
 const chapter1 = {
   ChapterNumber: 1,
   ChapterTitle:
@@ -815,360 +826,513 @@ const chapter16 = {
 
 const chapter17 = {
   ChapterNumber: 17,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Plyometric and Speed Training",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following exercises benefits the most from the advantage of the stretch shortening cycle (SSC)?",
+      Answers: [
+        "push press", 
+        "deadlift", 
+        "back squat", 
+        "front squat"
+      ],
+      A: 0, //A
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following is a requirement to participate in a plyometric training program?",
+      Answers: [
+        "at least 18 years of age", 
+        "more than one year performing power exercises", 
+        "at least three months of general resistance training exercises", 
+        "less than 50 years of age"
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following adjustments is most appropriate for a client having difficulty performing a depth jump correctly due to the amortization phase being too long?",
+      Answers: [
+        "Discontinue the depth jump.", 
+        "Have the client try the jump using just one leg.", 
+        "Focus on absorbing the landing.", 
+        "Decrease the height of the box."
+      ],
+      A: 3, //D
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
-    },
-  ],
-  Questions: [
-    {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "The personal trainer notices that a client takes short, choppy steps while sprinting. Which of the following types of training will help this client improve stride length the most?\nI. resisted sprinting\nII. assisted sprinting\nIII. technique training\nIV. plyometric training",
+      Answers: [
+        "I and III only", 
+        "II and IV only", 
+        "I, III, and IV only", 
+        "I, II, and III only"
+      ],
+      A: 2, //C
     },
   ],
 };
 
 const chapter18 = {
   ChapterNumber: 18,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Clients Who Are Preadolescent, Older, or Pregnant",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Following eight weeks of regular strength training, a 10-year-old boy made significant gains in chest press and leg press performance. Which of the following is most responsible for his training-induced gains in muscle strength?",
+      Answers: [
+        "muscle hypertrophy", 
+        "muscle hyperplasia", 
+        "neural adaptations", 
+        "enhanced body composition"
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following resistance training adaptations will lower the risk of cardiovascular disease in a 70-year-old client?\nI. reduced body fat\nII. decreased resting systolic blood pressure\nIII. improved endothelial function\nIV. decreased high-density lipoprotein cholesterol",
+      Answers: [
+        "I, II and III only", 
+        "I, II, and IV only", 
+        "I, III, and IV only", 
+        "II, III, and IV only"
+      ],
+      A: 0, //A
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following training protocols is the most appropriate goal for previously inactive older adults?",
+      Answers: [
+        "aerobic exercise only, five days per week", 
+        "resistance exercise only, four days per week", 
+        "resistance exercise four days per week and aerobic endurance exercise two days per week", 
+        "resistance exercise two days per week and aerobic endurance exercise three days per week"
+      ],
+      A: 3, //D
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following exercise recommendations is appropriate for a healthy pregnant client?\nI. Gradually increase to 30 minutes per day of accumulated physical activity on at least three days per week.\nII. Strength training for the major muscle groups can be performed provided a resistance that permits multiple repetitions (e.g., 12-15) is used.\nIII. Activities such as horseback riding, in-line skating, and outdoor cycling can be performed provided the exercise intensity is moderate.\nIV. Avoid exercise in the supine position after the second trimester.",
+      Answers: [
+        "I and IV only", 
+        "I and II only", 
+        "II and III only", 
+        "III and IV only"
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following chest exercises would be most appropriate for women in their second trimester of pregnancy?",
+      Answers: [
+        "dumbbell bench presses", 
+        "standing cable crossovers", 
+        "dumbbell chest flys", 
+        "barbell bench presses"
+      ],
+      A: 1, //B
     },
   ],
 };
 
 const chapter19 = {
   ChapterNumber: 19,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Clients With Nutritional and Metabolic Concerns",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Based on his calculated BMI, which of the following is the disease risk for a 69-inch (175 cm), 198-pound (90 kg) male client with a waist circumference of 41 inches (104 cm)?",
+      Answers: [
+        "no risk", 
+        "increased", 
+        "high", 
+        "very high"
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "All of the following are dietary goals that can apply to all clients who are overweight EXCEPT",
+      Answers: [
+        "setting a weight loss goal of 10% of body weight over the first six months.", 
+        "changing food selections to decrease caloric and fat intake.", 
+        "aiming for a 1- to 2-pound (0.45-0.9 kg) weight loss per week.", 
+        "following a 1,200 kcal/day food plan."
+      ],
+      A: 3, //D
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following are undesirable blood lipid levels?\nI. total cholesterol: 250 mg/dl\nII. triglycerides: 200 mg/dl\nIII. LDLs: 100 mg/dl\nIV. HDLs: 50 mg/dl",
+      Answers: [
+        "I and IV only", 
+        "I and II only", 
+        "II and III only", 
+        "III and IV only"
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
-    },
-  ],
-  Questions: [
-    {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following describes a difference between type 1 and type 2 diabetes?",
+      Answers: [
+        "Only clients with type 1 diabetes can have gestational diabetes.", 
+        "Clients with type 1 diabetes are more prevalent.", 
+        "Clients with type 2 diabetes can produce insulin.", 
+        "Only clients with type 2 diabetes can receive exogenous insulin."
+      ],
+      A: 2, //C
     },
   ],
 };
 
 const chapter20 = {
   ChapterNumber: 20,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Clients With Cardiovascular and Respiratory Conditions",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A 44-year-old-male with history of high blood pressure (144/92) has never exercised before but would like to start an exercise program. His physician cleared him to participate. Which of the following is an example of the most appropriate beginning exercise intensity for this client?",
+      Answers: [
+        "treadmill walking at an RPE of 14", 
+        "back squat at 75% of 1RM for 10 repetitions", 
+        "elliptical trainer at 65% V̇O₂ max", 
+        "dumbbell bench press at 50% 1RM for 16 repetitions"
+      ],
+      A: 3, //D
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A 52-year-old-client had a heart attack three months ago and was recently cleared by his physician to begin a low-intensity exercise program. Which of the following combinations of exercise, intensity, and duration are most appropriate for this client?",
+      Answers: [
+        "stationary bicycle, RPE of 12, 15 minutes", 
+        "treadmill walking, 40% V̇O₂ max, 20 minutes", 
+        "stair stepper, 70% HR max, 25 minutes", 
+        "elliptical trainer, RPE of 8, 10 minutes"
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A 63-year-old client with peripheral vascular disease describes significant pain when walking for 5 minutes or more. Which of the following programs would best help her increase the amount of time she is able to walk pain free?",
+      Answers: [
+        `Have the client "walk through" the pain for 2 minutes after the pain begins.`, 
+        `Decrease the duration to 2 minutes at the same intensity.`, 
+        `Have the client take a short rest break once the pain begins, and then continue walking until the pain returns.`, 
+        `Discontinue walking as a form of exercise since it is too painful.`
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
-    },
-  ],
-  Questions: [
-    {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: `A client with exercise-induced asthma has been performing primarily resistance training exercises for the past year. He now requests help in improving his "stamina." Which of the following methods of monitoring aerobic intensity should be used for this client?\nI. target heart rate\nII. sense of dyspnea\nIII. METs \nIV. RPE`,
+      Answers: [
+        "I and III only", 
+        "II and IV only", 
+        "I, II, and III only", 
+        "II, III, and IV only"
+      ],
+      A: 3, //D
     },
   ],
 };
 
 const chapter21 = {
   ChapterNumber: 21,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Clients With Orthopedic, Injury, and Rehabilitation Concerns",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Both forward lumbar and abdominal flexion exercises would be contraindicated for someone who has a history of which of the following?",
+      Answers: [
+        "spondylolisthesis", 
+        "low back extensor strain", 
+        "posteriorly herniated disc", 
+        "spondylolysis"
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A client who participates in recreational softball has indicated that she has dislocated her shoulder in the past. Which of the following exercises is most appropriate for this client?",
+      Answers: [
+        "rotator cuff strengthening", 
+        "push-up", 
+        "behind-the-neck lat pulldown", 
+        "overhead press"
+      ],
+      A: 0, //A
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A client who plays basketball has a lateral ankle sprain. Assuming that he is ready to begin functional activities, all of the following are appropriate progressions EXCEPT",
+      Answers: [
+        "balancing on floor with eyes closed, advancing to balancing with eyes open on an air pad.", 
+        "12-inch (30 cm) box jumps advancing to 18-inch (45 cm) box jumps.", 
+        "diagonal and lateral running drills advancing to straight-line jogging drills.", 
+        "forward lunges on floor advancing to lateral lunges onto a domed device."
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A 30-year-old client who is a runner is complaining of periodic knee pain. The personal trainer notices that her knee moves slightly medially when she runs. Which of the following exercises would be indicated, provided knee alignment with foot is maintained?",
+      Answers: [
+        "deep squats", 
+        "forward 6-inch (15 cm) step-ups", 
+        "full ROM open kinetic chain leg (knee) extensions", 
+        "stair running"
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A 59-year-old male has successfully rehabilitated from a total hip arthroplasty. He is interested in doing cardiovascular exercises. All of the following are appropriate EXCEPT",
+      Answers: [
+        "swimming.", 
+        "stair stepping.", 
+        "step aerobics.", 
+        "stationary cycling."
+      ],
+      A: 2, //C
     },
   ],
 };
 
 const chapter22 = {
   ChapterNumber: 22,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Clients With Spinal Cord Injury, Multiple Sclerosis, Epilepsy, and Cerebral Palsy",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "For reasons such as autonomic control of heart rate and varying amounts of active muscle mass, RPE is an appropriate method for monitoring aerobic exercise intensity in clients with which of the following?",
+      Answers: [
+        "spinal cord injury", 
+        "multiple sclerosis", 
+        "epilepsy", 
+        "cerebral palsy"
+      ],
+      A: 0, //A
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Your 38-year-old client diagnosed with multiple sclerosis is a civil engineer complaining of leg muscle fatigue while walking and climbing stairs at job sites. She performs 10 minutes of recumbent stepping, combined arm-leg bicycle ergometry, and upper body ergometry at a heart rate range of 90 to 100 beats/min. She also performs two sets of 10 repetitions of lat pulldowns, seated rows, knee extensions, and chest presses at 70% of 1RM. Which of the following activities should be added during the next exercise session?",
+      Answers: [
+        "jogging and jump squats", 
+        "rowing ergometry and seated hip adduction", 
+        "treadmill walking and leg presses", 
+        "jumping rope and box jumps"
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "The personal trainer has been working with a client on weight loss who has a history of partial, complex seizures for the past three months. Her recommended weight loss was 22 pounds (10 kg). Upon completing a repeat body composition test, the personal trainer finds that she has lost 9.9 pounds (4.5 kg). Body composition results show that she has lost 8.8 pounds (4 kg) of body fat and 1.1 pounds (0.5 kg) of lean body mass. Which of the following is the personal trainer's primary concern?",
+      Answers: [
+        "The rate of weight loss is too rapid.", 
+        "The weight loss may suggest she is dehydrated.", 
+        "The weight loss may increase the risk of antiseizure medication side effects.", 
+        "There are no particular concerns as a result of this weight loss."
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
-    },
-  ],
-  Questions: [
-    {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A client diagnosed with cerebral palsy has functional use of his legs. Which of the following modes of exercise requires the LEAST amount of supervision?",
+      Answers: [
+        "treadmill walking", 
+        "stairstepper", 
+        "stationary bicycle", 
+        "elliptical trainer"
+      ],
+      A: 2, //C
     },
   ],
 };
 
 const chapter23 = {
   ChapterNumber: 23,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Resistance Training for Clients Who Are Athletes",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following is the most sport-specific resistance training exercise for a volleyball player?",
+      Answers: [
+        "push press", 
+        "lateral shoulder raise", 
+        "seated shoulder press", 
+        "leg press"
+      ],
+      A: 0, //A
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following is organized from shortest to longest?",
+      Answers: [
+        "mesocycle, microcycle, macrocycle", 
+        "macrocycle, microcycle, mesocycle", 
+        "microcycle, mesocycle, macrocycle", 
+        "microcycle, macrocycle, mesocycle"
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following is the order of the phases of a periodized program?\nI. strength/power\nII. hypertrophy\nIII. active rest\nIV. competition\nV. strength",
+      Answers: [
+        "I, II, III, V, IV", 
+        "IV, III, II, I, V", 
+        "III, IV, II, V, I", 
+        "II, V, I, IV, III"
+      ],
+      A: 3, //D
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A personal trainer includes the back squat exercise in an athlete's linearly periodized resistance training program. What is the load for a medium training day if the athlete's 1RM is 400 pounds (182 kg) and the number of goal repetitions is four per set?",
+      Answers: [
+        "360 pounds (164 kg)", 
+        "325 pounds (148 kg)", 
+        "285 pounds (130 kg)", 
+        "255 pounds (116 kg)"
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "An athlete who is able to perform 225 pounds (102 kg) on the back squat exercise for a maximum of five repetitions would use which of the following if the workout called for him or her to perform back squats with 80% of his 5 RM?",
+      Answers: [
+        "5 repetitions with 225 pounds (102 kg)", 
+        "1 repetition with 225 pounds (102 kg)", 
+        "5 repetitions with 180 pounds (82 kg)", 
+        "1 repetition with 180 pounds (82 kg)"
+      ],
+      A: 2, //C
     },
   ],
 };
 
 const chapter24 = {
   ChapterNumber: 24,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Facility and Equipment Layout and Maintenance",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "A health and fitness facility has a total number of members of 3,000, and the facility's criterion for cardiovascular equipment is one cardiovascular machine for every four members. How many pieces of cardiovascular machines should the facility have based on the common practice used in the health and fitness industry? ",
+      Answers: [
+        "56", 
+        "62", 
+        "72", 
+        "81"
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Which of the following are appropriate guidelines for the use of mirrors in a fitness facility?\nI. 6 inches (15 cm) away from equipment\nII. 20 inches (51 cm) away from equipment\nIII. 6 inches (15 cm) above the floor\nIV. 20 inches (51 cm) above the floor",
+      Answers: [
+        "I and III only", 
+        "I and IV only", 
+        "II and III only", 
+        "II and IV only"
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "When organizing exercise equipment in a health and fitness facility, which of the following guidelines should the personal trainer follow?\nI. Place taller resistance training machines in the middle of a resistance training room for better visibility.\nII. Equipment for exercises that require spotters should be located away from windows, mirrors and doors.\nIII. The ends of all Olympics bars should be spaced 3 feet (91 cm) apart.\nIV. All resistance training machines and equipment must be spaced at least 3 feet (91 cm), preferably 4 feet (121 cm), apart.",
+      Answers: [
+        "I and III only", 
+        "I and IV only", 
+        "II and III only", 
+        "II and IV only"
+      ],
+      A: 2, //C
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
-    },
-  ],
-  Questions: [
-    {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "What is the minimum ceiling height sufficient for overhead exercises?",
+      Answers: [
+        "7 feet (212 cm)", 
+        "9 feet (273 cm)", 
+        "11 feet (334 cm)", 
+        "12 feet (364 cm)"
+      ],
+      A: 3, //D
     },
   ],
 };
 
 const chapter25 = {
   ChapterNumber: 25,
-  ChapterTitle: "Cardiorespiratory System and Gas Exchange",
+  ChapterTitle: "Legal Aspects of Personal Training",
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "The legal system decides personal injury and wrongful death cases in which of the following settings?",
+      Answers: [
+        "the criminal justice system", 
+        "the civil justice system, focusing on tort law", 
+        "the civil justice system, focusing on contract law", 
+        "the civil justice system, focusing on equity"
+      ],
+      A: 1, //B
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Personal trainers may lawfully and permissibly provide advice to clients in which of the following situations?",
+      Answers: [
+        "the use of exercise equipment", 
+        "the use of various exercises to treat client's medical conditions", 
+        "the use of particular exercises to lower a client's elevated blood pressure", 
+        "the use of medical procedures to prevent disease"
+      ],
+      A: 0, //A
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "An assumption of risk or a waiver/release of liability may be used by personal trainers",
+      Answers: [
+        "in most states.", 
+        "only if authorized by statutory law.", 
+        "when approved by a judge prior to use.", 
+        "when the facility pays the participant to sign."
+      ],
+      A: 0, //A
     },
   ],
   Questions: [
     {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
-    },
-  ],
-  Questions: [
-    {
-      Q: "",
-      Answers: ["", "", "", ""],
-      A: 0,
+      Q: "Professional standards of practice for personal trainers may be used for which of the following?",
+      Answers: [
+        "to assist personal trainers in their delivery of service", 
+        "to help physicians provide diagnostic services for patients", 
+        "to qualify personal trainers to render physical therapy services for patients", 
+        "to qualify personal trainers to be licensed in particular states"
+      ],
+      A: 0, //A
     },
   ],
 };
@@ -1189,5 +1353,14 @@ export const chapters = [
   chapter13,
   chapter14,
   chapter15,
-  chapter16
+  chapter16,
+  chapter17,
+  chapter18,
+  chapter19,
+  chapter20,
+  chapter21,
+  chapter22,
+  chapter23,
+  chapter24,
+  chapter25
 ];
