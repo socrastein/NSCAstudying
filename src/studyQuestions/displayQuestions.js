@@ -1,38 +1,24 @@
 import "./displayQuestions.css";
 import { newQuestionGenerator } from "./generateQuestions";
+import { loadStartMenu } from "./startMenu";
 
-let questionGenerator = newQuestionGenerator();
+let questionGenerator;
 let answersCorrect;
 let answersWrong;
 let questionsAsked;
 
-const refreshGenerator = () => {
-  questionGenerator = newQuestionGenerator();
+export const refreshGenerator = (selectedChapters = [], random = false) => {
+  questionGenerator = newQuestionGenerator(selectedChapters, random);
   answersCorrect = 0;
   answersWrong = 0;
   questionsAsked = 0;
 };
 
-export const loadStartScreen = () => {
-  const mainContainer = document.getElementById("mainContainer");
-  mainContainer.innerHTML = "";
-  refreshGenerator();
-
-  const startQuestions = document.createElement("button");
-  startQuestions.classList.add("button");
-  startQuestions.textContent = "Start";
-  startQuestions.onclick = () => {
-    showNewQuestion();
-  };
-
-  mainContainer.append(startQuestions);
-};
-
-const showNewQuestion = () => {
+export const showNewQuestion = () => {
   const mainContainer = document.getElementById("mainContainer");
   mainContainer.innerHTML = "";
 
-  const question = questionGenerator.getRandomQuestion();
+  const question = questionGenerator.getNextQuestion();
   console.log(question);
   if (question === null) {
     loadEndScreen();
@@ -78,7 +64,7 @@ const displayQuestion = (question) => {
   for (let i = 0; i < length; i++) {
     const answer = document.createElement("div");
     answer.classList.add("answer");
-    answer.textContent = `${letters[i]}. ${questionObj.Answers[i]}`;
+    answer.textContent = `${questionObj.Answers[i]}`;
     answer.onclick = () => {
       if (i === questionObj.A) {
         answer.classList.add("correct");
@@ -89,6 +75,7 @@ const displayQuestion = (question) => {
       }
       disableAnswers();
       document.getElementById("mainContainer").append(nextButton());
+      window.scrollTo(0, document.body.scrollHeight)
     };
     container.append(answer);
   }
@@ -144,7 +131,7 @@ const mainMenuButton = () => {
   button.classList.add("button");
   button.textContent = "Main Menu";
   button.onclick = () => {
-    loadStartScreen();
+    loadStartMenu();
   };
   return button;
 };

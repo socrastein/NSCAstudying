@@ -1,6 +1,9 @@
+div {
+  white-space: pre-line;
+}
+
 button {
-  margin-top: auto;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   padding: 0.75rem;
   font-size: 1.5rem;
   border-radius: 1rem;
@@ -43,7 +46,7 @@ button {
 }
 
 .chapterContainer {
-  padding: 2rem;
+  padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +65,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 2rem;
+  padding: 0 1rem 2rem 1rem;
   gap: 1rem;
 }
 .question {
