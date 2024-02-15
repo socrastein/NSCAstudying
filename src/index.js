@@ -1,4 +1,4 @@
 import "./style.css";
-import { loadStartScreen } from "./studyQuestions/displayQuestions";
+import { loadStartMenu } from "./studyQuestions/startMenu";
 
-loadStartScreen();
+loadStartMenu();
