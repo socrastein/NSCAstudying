@@ -4,26 +4,37 @@ import { getNumberOfQuestions } from "./generateQuestions";
 import { chapters } from "./questions";
 
 const numberOfChapters = chapters.length;
+const pageTitle = `NSCA CPT\nStudy Questions`;
 
 export const loadStartMenu = () => {
   const mainContainer = document.getElementById("mainContainer");
   mainContainer.innerHTML = "";
 
+  mainContainer.append(createPageTitle());
   mainContainer.append(createChapterSelectForm());
   mainContainer.append(createStartQuizButton());
 };
 
-const createStartQuizButton = () => {
-  const startQuiz = document.createElement("button");
-  startQuiz.classList.add("button");
-  startQuiz.textContent = "Start";
-  startQuiz.onclick = () => {
-    const checked = getCheckedChaptersArray();
-    refreshGenerator(checked);
-    showNewQuestion();
-  };
+const createPageTitle = () => {
+  const title = document.createElement("h1");
+  title.id = "pageTitle";
+  title.textContent = pageTitle;
+  return title;
+};
 
-  return startQuiz;
+const createSelectAllButton = () => {
+  const selectAll = document.createElement("button");
+  selectAll.textContent = "SELECT ALL";
+  selectAll.onclick = () => {
+    if (selectAll.textContent === "SELECT ALL") {
+      selectAllChapters();
+      selectAll.textContent = "UNSELECT ALL";
+    } else {
+      unselectAllChapters();
+      selectAll.textContent = "SELECT ALL";
+    }
+  };
+  return selectAll;
 };
 
 const createChapterSelectForm = () => {
@@ -31,7 +42,7 @@ const createChapterSelectForm = () => {
   chapterFieldset.id = "chapterFieldset";
 
   const chapterLegend = document.createElement("legend");
-  chapterLegend.textContent = "Choose chapters to test on";
+  chapterLegend.textContent = "Select chapters to test on";
   chapterFieldset.append(chapterLegend);
 
   chapterFieldset.append(createSelectAllButton());
@@ -45,22 +56,6 @@ const createChapterSelectForm = () => {
   return chapterFieldset;
 };
 
-const createSelectAllButton = () => {
-  const selectAll = document.createElement("div");
-  selectAll.id = "selectAll";
-  selectAll.textContent = "Select All";
-  selectAll.onclick = () => {
-    if (selectAll.textContent === "Select All") {
-      selectAllChapters();
-      selectAll.textContent = "Unselect All";
-    } else {
-      unselectAllChapters();
-      selectAll.textContent = "Select All";
-    }
-  };
-  return selectAll;
-};
-
 const createChapterButtons = () => {
   const chaptersContainer = document.createElement("div");
   chaptersContainer.classList.add("chaptersContainer");
@@ -69,6 +64,7 @@ const createChapterButtons = () => {
     const chapterMenuDiv = document.createElement("div");
     chapterMenuDiv.classList.add("chapterMenuDiv");
     chapterMenuDiv.numberOfQuestions = getNumberOfQuestions(chapters[i]);
+    chapterMenuDiv.chapterIndex = i;
 
     chapterMenuDiv.onclick = () => {
       if (chapterMenuDiv.classList.contains("selectedChapter")) {
@@ -94,6 +90,21 @@ const createChapterButtons = () => {
   }
 
   return chaptersContainer;
+};
+
+const createStartQuizButton = () => {
+  const startQuiz = document.createElement("button");
+  startQuiz.classList.add("button");
+  startQuiz.textContent = "START QUIZ";
+  startQuiz.onclick = () => {
+    const selected = getSelectedChaptersArray();
+    // Don't start if no chapters have been selected
+    if (selected.length === 0) return;
+    refreshGenerator(selected);
+    showNewQuestion();
+  };
+
+  return startQuiz;
 };
 
 const updateTotalQuestionsDiv = () => {
@@ -131,15 +142,14 @@ const unselectAllChapters = () => {
   updateTotalQuestionsDiv();
 };
 
-const getCheckedChaptersArray = () => {
-  const checkBoxes = document.querySelectorAll("input[type=checkbox]");
+const getSelectedChaptersArray = () => {
+  const selectedChapters = document.querySelectorAll(".selectedChapter");
   const checked = [];
-  checkBoxes.forEach((checkbox) => {
-    if (checkbox.checked === true) {
-      const chapterNum = parseInt(checkbox.id.split(" ")[1]) - 1;
-      checked.push(chapterNum);
-    }
-  });
+  const length = selectedChapters.length;
+  for (let i = 0; i < length; i++) {
+    const chapterIndex = selectedChapters[i].chapterIndex;
+    checked.push(chapterIndex);
+  }
   console.log(checked);
   return checked;
 };
