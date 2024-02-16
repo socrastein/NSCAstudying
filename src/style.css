@@ -3,10 +3,32 @@ html {
   box-sizing: border-box;
 }
 
+* {
+  color: #444444;
+  background-color: transparent;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+div {
+  white-space: pre-line;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.25rem;
+  border-radius: 1rem;
+  border: solid black 1px;
+}
+
+
+button:hover {
+  transform: scale(1.05);
+  background-color: lightblue;
 }
 
 /* Reset margin and padding */
@@ -73,10 +95,14 @@ a {
 }
 
 #mainContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 2rem 0;
 
-    width: 100dvw;
+  width: 100dvw;
+  min-height: 100dvh;
+  background-color: #fdfdfd;
 }

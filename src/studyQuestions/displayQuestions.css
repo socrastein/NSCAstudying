@@ -1,22 +1,4 @@
-div {
-  white-space: pre-line;
-}
-
-button {
-  margin: 1rem 0;
-  padding: 0.75rem;
-  font-size: 1.5rem;
-  border-radius: 1rem;
-  border: solid black 1px;
-}
-
-.button:hover {
-  transform: scale(1.1);
-  background-color: lightblue;
-}
-
 .statsContainer {
-  margin-top: 25%;
   width: 80%;
   padding: 2rem;
   display: flex;
@@ -46,7 +28,7 @@ button {
 }
 
 .chapterContainer {
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,7 +47,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 1rem 2rem 1rem;
+  padding: 0 1rem;
   gap: 1rem;
 }
 .question {

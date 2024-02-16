@@ -75,7 +75,7 @@ const displayQuestion = (question) => {
       }
       disableAnswers();
       document.getElementById("mainContainer").append(nextButton());
-      window.scrollTo(0, document.body.scrollHeight)
+      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
     };
     container.append(answer);
   }
