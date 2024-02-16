@@ -42,6 +42,10 @@ export const newQuestionGenerator = (selectedChapters = [], random = false) => {
   return { getNextQuestion };
 };
 
+export const getNumberOfQuestions = (chapter) => {
+  return chapter.Questions.length;
+}
+
 const getNextChapterQuestion = (chapter, random = false) => {
   const chapterNumber = chapter.ChapterNumber;
   const chapterTitle = chapter.ChapterTitle;
