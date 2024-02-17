@@ -5,13 +5,24 @@ import { loadStartMenu } from "./startMenu";
 let questionGenerator;
 let answersCorrect;
 let answersWrong;
-let questionsAsked;
+let totalQuestions;
+
+export const updateTotalQuestions = (total) => {
+  totalQuestions = total;
+};
 
 export const refreshGenerator = (selectedChapters = [], random = false) => {
   questionGenerator = newQuestionGenerator(selectedChapters, random);
   answersCorrect = 0;
   answersWrong = 0;
-  questionsAsked = 0;
+};
+
+export const showQuestionProgress = () => {
+  const progressDiv = document.createElement("div");
+  progressDiv.id = "progressDiv";
+  const questionNumber = answersCorrect + answersWrong + 1;
+  progressDiv.textContent = `Question ${questionNumber}/${totalQuestions}`;
+  return progressDiv;
 };
 
 export const showNewQuestion = () => {
@@ -25,6 +36,7 @@ export const showNewQuestion = () => {
     return;
   }
 
+  mainContainer.append(showQuestionProgress());
   mainContainer.append(displayChapter(question));
   mainContainer.append(displayQuestion(question));
 };
@@ -79,7 +91,6 @@ const displayQuestion = (question) => {
     };
     container.append(answer);
   }
-  questionsAsked++;
   return container;
 };
 
@@ -89,7 +100,8 @@ const loadEndScreen = () => {
   const statsContainer = document.createElement("div");
   statsContainer.classList.add("statsContainer");
 
-  statsContainer.append(createLabelValuePair("Answered", questionsAsked));
+  const questionsAsked = answersCorrect + answersWrong;
+  statsContainer.append(createLabelValuePair("Questions", questionsAsked));
   statsContainer.append(createLabelValuePair("Correct", answersCorrect));
   statsContainer.append(createLabelValuePair("Wrong", answersWrong));
 
