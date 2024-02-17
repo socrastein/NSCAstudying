@@ -1,10 +1,10 @@
 import "./startMenu.css";
-import { refreshGenerator, showNewQuestion } from "./displayQuestions";
+import { refreshGenerator, showNewQuestion, updateTotalQuestions } from "./displayQuestions";
 import { getNumberOfQuestions } from "./generateQuestions";
 import { chapters } from "./questions";
 
-const numberOfChapters = chapters.length;
 const pageTitle = `NSCA CPT\nStudy Questions`;
+const numberOfChapters = chapters.length;
 
 export const loadStartMenu = () => {
   const mainContainer = document.getElementById("mainContainer");
@@ -100,6 +100,7 @@ const createStartQuizButton = () => {
     const selected = getSelectedChaptersArray();
     // Don't start if no chapters have been selected
     if (selected.length === 0) return;
+    updateTotalQuestions(getQuestionTotal());
     refreshGenerator(selected);
     showNewQuestion();
   };
