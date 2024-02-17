@@ -79,3 +79,7 @@
 .wrong {
   background-color: lightcoral;
 }
+
+#nextButton {
+  scroll-margin-bottom: 16px;
+}

@@ -151,6 +151,5 @@ const getSelectedChaptersArray = () => {
     const chapterIndex = selectedChapters[i].chapterIndex;
     checked.push(chapterIndex);
   }
-  console.log(checked);
   return checked;
 };

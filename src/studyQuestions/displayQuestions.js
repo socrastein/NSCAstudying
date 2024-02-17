@@ -30,7 +30,6 @@ export const showNewQuestion = () => {
   mainContainer.innerHTML = "";
 
   const question = questionGenerator.getNextQuestion();
-  console.log(question);
   if (question === null) {
     loadEndScreen();
     return;
@@ -39,6 +38,9 @@ export const showNewQuestion = () => {
   mainContainer.append(showQuestionProgress());
   mainContainer.append(displayChapter(question));
   mainContainer.append(displayQuestion(question));
+  setTimeout(() => {
+    window.scrollTo({ top: 0});
+  }, 10);
 };
 
 const displayChapter = (question) => {
@@ -58,8 +60,6 @@ const displayChapter = (question) => {
 
   return container;
 };
-
-const letters = "ABCDEFG";
 
 const displayQuestion = (question) => {
   const questionObj = question.questionObj;
@@ -87,9 +87,10 @@ const displayQuestion = (question) => {
       }
       disableAnswers();
       document.getElementById("mainContainer").append(nextButton());
-      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+      document.getElementById("nextButton").scrollIntoView({block: "end", behavior: "smooth"});
     };
     container.append(answer);
+    
   }
   return container;
 };
@@ -151,6 +152,7 @@ const mainMenuButton = () => {
 const nextButton = () => {
   const button = document.createElement("button");
   button.classList.add("button");
+  button.id = "nextButton";
   button.textContent = "Next";
   button.onclick = () => {
     showNewQuestion();
@@ -164,3 +166,11 @@ const disableAnswers = () => {
     answer.onclick = null;
   });
 };
+
+const scrollToBottom = () => {
+  console.log(document.body.scrollHeight)
+  console.log(document.querySelector('footer').scrollHeight)
+  console.log(document.body.scrollHeight - document.querySelector('footer').scrollHeight)
+  const height = document.querySelector('footer').scrollHeight;
+  window.scrollTo({ top: height, behavior: "smooth" });
+}
